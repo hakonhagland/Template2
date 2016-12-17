@@ -204,6 +204,7 @@ sub skip_all {
 # method.
 #------------------------------------------------------------------------
 
+use Data::Printer;
 sub test_expect {
     my ($src, $tproc, $params) = @_;
     my ($input, @tests);
